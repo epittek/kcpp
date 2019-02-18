@@ -7,7 +7,7 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O0 -Wunused-variable")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -O0 -Wunused-variable")
 
-add_executable(start introduction/start.cc)
+#add_executable(start introduction/start.cc)
 #add_executable(lsizeof src/LSizeof.cc)
 #add_executable(lstatic src/LStatic.cc)
 #add_executable(lstaticCast src/LStaticCast.cc)
