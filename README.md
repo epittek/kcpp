@@ -1,4 +1,4 @@
-# Krótka instrukcja
+# Bardzo krótka instrukcja
 
 1. Download
 
