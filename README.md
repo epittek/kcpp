@@ -2,4 +2,4 @@
 
 1. Download
 
-   git clone https://github.com/epittek/kurscpp.git
+   git clone https://github.com/epittek/kcpp.git
