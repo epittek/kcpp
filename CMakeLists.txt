@@ -4,8 +4,8 @@ project(CBM_seminar)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_BUILD_TYPE Debug)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O0 -Wunused-variable")
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -O0 -Wunused-variable")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O0 -Wno-unused-variable")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -O0 -Wno-unused-variable")
 
 #add_executable(start introduction/start.cc)
 #add_executable(lsizeof src/LSizeof.cc)
