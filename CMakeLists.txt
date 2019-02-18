@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(CBM_seminar)
+project(kcpp)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_BUILD_TYPE Debug)
@@ -19,4 +19,11 @@ foreach (sourcefile ${APP_SOURCES})
     #add executable for all file
     add_executable(${filename} ${sourcefile})
 endforeach (sourcefile ${APP_SOURCES})
+
+
+# Create shared library
+# add_library(${PROJECT_NAME} SHARED ${APP_SOURCES})
+
+# Install library
+# install(TARGETS ${PROJECT_NAME} DESTINATION lib/${PROJECT_NAME})
 
