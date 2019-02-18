@@ -15,8 +15,8 @@ void tablice(){
   int A[10];                 //tablica 10 int
   int A1[]={1,2,3,4,5,6};    //tablica 6 int
   int A2[6]={0};
-  int A3[6]({0,0,0,0,0,0});
-  int A4[6]({0});
+  //int A3[6]({0,0,0,0,0,0});
+  //int A4[6]({0});
                    //tablica 20 znaków
   char B[i]={'a', 'b', 'c', 'd', 'e', 'f'};
                    //tablica 3 znakow
