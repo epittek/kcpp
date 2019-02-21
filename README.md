@@ -4,6 +4,6 @@
 
    git clone https://github.com/epittek/kcpp.git
 
-# Zrozumiale napisana instrukcja korzystania z git:
+2. Zrozumiale napisana instrukcja korzystania z git:
 
    https://git-scm.com/book/pl/v2
