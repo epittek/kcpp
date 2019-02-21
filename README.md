@@ -6,4 +6,4 @@
 
 # Zrozumiale napisana instrukcja korzystania z git:
 
-   https://git-scm.com/book/pl/v1
+   https://git-scm.com/book/pl/v2
