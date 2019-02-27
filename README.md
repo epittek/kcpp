@@ -1,4 +1,4 @@
-# Bardzo krótka instrukcja
+# Nie za trudny kurc C++
 
 1. Download
 
@@ -8,7 +8,7 @@
 
    https://git-scm.com/book/pl/v2
 
-3. Reposytorium sklada sie z kilku niezaleznych czesci:
+3. Repozytorium składa się z kilku niezależnych części:
 
 	1. kcppBasic - postawowe pliki użyte do omawiania poszczególnych zagadniem kursu
 	2. kcppKviCar - przykład klasy w c++. Ten katalog i zagadnienia w nim będą wykorzystane w późnijszym terminie przy omawianiu klas w c++
