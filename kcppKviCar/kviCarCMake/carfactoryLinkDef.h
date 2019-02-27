@@ -4,6 +4,6 @@
 #pragma link off all classes;
 #pragma link off all functions;
 
-#pragma link C++ class Kvi+;
-#pragma link C++ class DDTreeMaker+;
+#pragma link C++ class KviCar+;
+#pragma link C++ class KviVan+;
 #endif
