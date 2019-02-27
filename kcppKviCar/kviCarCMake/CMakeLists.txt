@@ -31,13 +31,13 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 
 #---Create a shared library with generated dictionary
-add_library(lcarfactory SHARED CarFactory.cxx ${sources})
-#target_link_libraries(lcarfactory ${ROOT_LIBRARIES})
+add_library(carfactory SHARED CarFactory.cxx ${sources})
+#target_link_libraries(carfactory ${ROOT_LIBRARIES})
 
 
 #---Create  a main program using the library
 add_executable(CarFactory CarFactory.cxx)
-target_link_libraries(CarFactory lcarfactory)
+target_link_libraries(CarFactory carfactory)
 
 
 #---Make place for bin and library
