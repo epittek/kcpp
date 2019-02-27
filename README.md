@@ -11,5 +11,6 @@
 3. Reposytorium sklada sie z kilku niezaleznych czesci:
 
 	1. kcppBasic - postawowe pliki uzyte do omawiania poszczegolnych zagadniem kursu
-	2. kviCarMake - przyklad klasy i jej uzycia. Komilowanie "z uzyciem Makefile"
-	3. kviCarCMake -  przyklad klasy i jej uzycia. Komilowanie "z uzyciem cmake"
+	2. kcppKviCar - przyklad klasy w c++
+		1. kviCarMake - przyklad klasy i jej uzycia. Komilowanie "z uzyciem Makefile"
+		2. kviCarCMake -  przyklad klasy i jej uzycia. Komilowanie "z uzyciem cmake"
