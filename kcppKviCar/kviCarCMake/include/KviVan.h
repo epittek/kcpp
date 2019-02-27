@@ -17,7 +17,7 @@ class KviVan : public KviCar
 
   void StolePlate();
 
-  ClassDef(KviVan,1)
+  //ClassDef(KviVan,1)
 };
 
 #endif

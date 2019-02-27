@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-ClassImp(KviCar);
+//ClassImp(KviCar);
 
 KviCar::KviCar() {
   //cout <<"The KviCar Object has been created" << endl;

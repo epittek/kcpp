@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-ClassImp(ClassVan);
+//ClassImp(ClassVan);
 
 KviVan::KviVan() {
   //cout <<"The KviVan Object has been created" << endl;

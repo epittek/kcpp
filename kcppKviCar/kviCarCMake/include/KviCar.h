@@ -28,7 +28,7 @@ class KviCar
   int fFakePlate;
   int fColor;
 
-  ClassDef(KviCar,1)
+  //ClassDef(KviCar,1)
 };
 
 #endif
