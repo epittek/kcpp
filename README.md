@@ -1,4 +1,4 @@
-# Nie za trudny kurs C++
+# Pomocnicze materiały do kursu C++
 
 1. Download
 
