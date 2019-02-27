@@ -11,7 +11,7 @@ project(carfactory)
 
 #---Set global variables e.g. where sources and includes are
 file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cxx)
-file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.h)
+#file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.h)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
