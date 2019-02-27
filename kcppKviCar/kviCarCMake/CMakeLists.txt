@@ -6,7 +6,7 @@
 
 
 #--- CMakeLists.txt for CarFactory package.
-cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
+cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 project(carfactory)
 
 
