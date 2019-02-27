@@ -1,4 +1,4 @@
-# Nie za trudny kurc C++
+# Nie za trudny kurs C++
 
 1. Download
 
