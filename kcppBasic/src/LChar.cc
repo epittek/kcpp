@@ -8,6 +8,11 @@ int main(){
 	char mystring2[] = "Dzień dobry";
 	char mystring3[10];	
 
+	cout << "mystring1: "<< mystring1 << endl;
+	cout << "mystring2: "<< mystring2 << endl;
+	cout << "mystring3: "<< mystring3 << endl;
+
+
 	/* Not allowed
 	   mystring = "Hello";
 	   mystring[] = "Hello";
@@ -15,12 +20,12 @@ int main(){
 	*/
 
 	// Assigning values to strings
-	mystring1[0] = 'H';
-	mystring1[1] = 'e';
-	mystring1[2] = 'l';
-	mystring1[3] = 'l';
-	mystring1[4] = 'o';
-	mystring1[5] = '\0';
+	mystring3[0] = 'H';
+	mystring3[1] = 'e';
+	mystring3[2] = 'l';
+	mystring3[3] = 'l';
+	mystring3[4] = 'o';
+	mystring3[5] = '\0';
 
 	//Generally for assigning values to an array, and more specifically to a string of characters, a series of functions like strcpy are used. strcpy (string copy) is defined in the cstring (string.h) library and can be called the following way:
 	//strcpy (string1, string2);
