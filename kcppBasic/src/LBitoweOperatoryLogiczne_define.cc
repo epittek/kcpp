@@ -12,13 +12,13 @@ void printBinary(const unsigned char val) {
 }
 
 #define PR(STR, EXPR) \
-cout << STR <<"\t"; printBinary(EXPR); cout << endl;
+cout << EXPR << STR <<"\t"; printBinary(EXPR); cout << endl;
 
 int main() {
    unsigned int getval;
 
    for(int i = 0; i<= 10; i++) {
-      PR("a in binary: ", i);
+      PR(" in binary: ", i);
       //cout << i <<"\t";
       //printBinary(i);
       //cout << endl;
