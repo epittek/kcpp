@@ -27,7 +27,10 @@ endif()
 #add_executable(lstatic src/LStatic.cc)
 #add_executable(lstaticCast src/LStaticCast.cc)
 
+
 file(GLOB_RECURSE APP_SOURCES src/*.cc)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+
 foreach (sourcefile ${APP_SOURCES})
     #get filename without extension (NAME_(W)ethout(E)xtenction)
     get_filename_component(filename ${sourcefile} NAME_WE)
