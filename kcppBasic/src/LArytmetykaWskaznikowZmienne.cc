@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <string>
+#include <sstream>
 #include <LConversion.h>
 using namespace std;
 
