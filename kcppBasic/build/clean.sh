@@ -23,5 +23,5 @@ make clean
 printf "%s\n" "rm -rf EVERYTHING!......."
 rm -rf Makefile [Cc][Mm]ake*
 
-progress-bar 10
+progress-bar 10 # ;)
 
