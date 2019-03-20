@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include <string>
 #include <LConversion.h>
 using namespace std;
 
@@ -15,11 +16,26 @@ int main()
 
   // Wyswieltlenie adresow zmiennych
 //  printf(" \n Adres zmiennej A = %u ", &a);
-	  cout <<"Adres zminnej A: "<< &a << endl;
-	  cout <<"Adres zminnej B: "<< &b << endl;
-	  cout <<"Adres zminnej C: "<< &c << endl;
-	  cout <<"Adres zminnej X: "<< &x << endl;
-	  cout <<"Adres zminnej WSK_INT: "<< &wsk_int << endl;
+
+	  //string a1 = std::to_string(0xa1a56);
+
+	std::ostringstream oss;
+
+	oss << &a; std::string a1 = oss.str();
+	cout <<"Adres zminnej A: "<< &a << "\t dec: " << hextodec(a1) << endl;
+
+	oss << &b; std::string b1 = oss.str();
+	cout <<"Adres zminnej B: "<< &b << "\t dec: " << hextodec(b1) << endl;
+
+	oss << &c; std::string c1 = oss.str();
+	cout <<"Adres zminnej C: "<< &c << "\t dec: " << hextodec(c1) << endl;
+
+	oss << &x; std::string x1 = oss.str();
+	cout <<"Adres zminnej X: "<< &x << "\t dec: " << hextodec(x1) << endl;
+
+
+
+	cout <<"Adres zminnej WSK_INT: "<< &wsk_int << endl;
 
 
   a = b = c = 0; 
