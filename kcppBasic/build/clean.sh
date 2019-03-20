@@ -1,9 +1,9 @@
 #!/bin/bash
 
-printf "%s" "make clean......."
+printf "%s\n" "make clean......."
 make clean
 #rm -rf Makefile {CM,cm}ake*
 
-printf "%s" "rm -rf EVERYTHING!......."
+printf "%s\n" "rm -rf EVERYTHING!......."
 rm -rf Makefile [Cc][Mm]ake*
 
