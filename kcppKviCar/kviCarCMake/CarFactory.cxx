@@ -1,5 +1,5 @@
 /* Author: Arkadiusz Bubak
-   mail: arkadiusz@buabk.pl
+   mail: arkadiusz@bubak.pl
    date: 2008.02.22
  */
 
