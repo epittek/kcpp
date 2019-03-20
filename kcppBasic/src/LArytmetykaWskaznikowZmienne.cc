@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include <LConversion.h>
 using namespace std;
 
 int main()
