@@ -20,20 +20,23 @@ int main()
 
 	  //string a1 = std::to_string(0xa1a56);
 
-	std::ostringstream sa;
-	sa << &a; std::string a1 = sa.str();
+	ostringstream sa;
+	sa << &a; string a1 = sa.str();
 	cout <<"Adres zminnej A: "<< &a << "\t dec: " << hextodec(a1) << endl;
+    // lub prosciej
+    unsigned long p = (unsigned long) &a;
+	cout << dec << p << endl;
 
-	std::ostringstream sb;
-	sb << &b; std::string b1 = sb.str();
+	ostringstream sb;
+	sb << &b; string b1 = sb.str();
 	cout <<"Adres zminnej B: "<< &b << "\t dec: " << hextodec(b1) << endl;
 
-	std::ostringstream sc;
-	sc << &c; std::string c1 = sc.str();
+	ostringstream sc;
+	sc << &c; string c1 = sc.str();
 	cout <<"Adres zminnej C: "<< &c << "\t dec: " << hextodec(c1) << endl;
 
-	std::ostringstream sx;
-	sx << &x; std::string x1 = sx.str();
+	ostringstream sx;
+	sx << &x; string x1 = sx.str();
 	cout <<"Adres zminnej X: "<< &x << "\t dec: " << hextodec(x1) << endl;
 
 
