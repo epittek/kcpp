@@ -16,6 +16,7 @@ int main() {
 
     cout << "q[i]   = " << q[i] << endl;
     cout << "i[q]   = " << i[q] << endl;
+    i++;
     cout << "*(i+q)   = " << *(i+q) << endl;
 	
 }
