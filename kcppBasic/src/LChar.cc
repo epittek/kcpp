@@ -17,7 +17,7 @@ int main(){
 	   mystring = "Hello";
 	   mystring[] = "Hello";
 	   mystring = { 'H', 'e', 'l', 'l', 'o', '\0' };
-	*/
+	   */
 
 	// Assigning values to strings
 	mystring3[0] = 'H';
@@ -47,23 +47,23 @@ int main(){
 
 
 	cout << str1 << "\n"
-		 << str2 << "\n"
-		 << str3 << endl;
+		<< str2 << "\n"
+		<< str3 << endl;
 
 	/*from cstring
-	https://www.programiz.com/cpp-programming/library-function/cstring/strlen
-    strxfrm()
-    strcoll()
-    strlen()
-    strerror()
-    memset()
-    strtok()
-    strstr()
-    strspn()
-    strrchr()
-    strpbrk()
-    strcspn()
-	*/
+https://www.programiz.com/cpp-programming/library-function/cstring/strlen
+strxfrm()
+strcoll()
+strlen()
+strerror()
+memset()
+strtok()
+strstr()
+strspn()
+strrchr()
+strpbrk()
+strcspn()
+*/
 
 	return 0;
 }

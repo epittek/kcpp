@@ -12,25 +12,25 @@ int main(){
 }
 
 void tablice(){
-  int k;
- 
-  int   *tInt   = new int[7];
-  float *tFloat = new float[7];
-  char  *tChar  = new char[7];
- 
-  tInt[0] = 0;
+	int k;
 
-  *(tInt+1) = 1;
-  *(tFloat) = 3.14;
+	int   *tInt   = new int[7];
+	float *tFloat = new float[7];
+	char  *tChar  = new char[7];
 
-  strcpy(tChar, "abcd");
-  
-  for(k = 0; k < 7; k++){
-     cout <<"tInt["<< k <<"]=" << *(tInt+k)<< endl;
-  }
+	tInt[0] = 0;
 
-  delete [] tInt;
-  delete [] tFloat;
-  delete [] tChar;
+	*(tInt+1) = 1;
+	*(tFloat) = 3.14;
 
-  }
+	strcpy(tChar, "abcd");
+
+	for(k = 0; k < 7; k++){
+		cout <<"tInt["<< k <<"]=" << *(tInt+k)<< endl;
+	}
+
+	delete [] tInt;
+	delete [] tFloat;
+	delete [] tChar;
+
+}
