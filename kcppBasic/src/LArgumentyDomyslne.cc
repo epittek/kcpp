@@ -23,6 +23,8 @@ int main(){
     
     wynik = zmniejsz(5);
     cout << "Wywolanie zmniejsz(5): "<< wynik << endl;
+
+    return 0;
 }
 
 int zmniejsz(int a, int b)
