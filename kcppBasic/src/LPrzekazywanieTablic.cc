@@ -2,7 +2,7 @@
 using namespace std;
 
 //---------------------------------
-void przekaz1D(int tab[]){ //Przekazywanie tablic 1D
+void przekaz1D(int tab[]){ ///Przekazywanie tablic 1D
     for (int i = 0; i<6; i++){
         cout << i << "\t" << tab[i] << endl;
 }
@@ -10,7 +10,7 @@ void przekaz1D(int tab[]){ //Przekazywanie tablic 1D
 
 
 //--------------------------------
-void przekaz2D(int tab[3][3]) {//Przekazywanie tablic 2D
+void przekaz2D(int tab[3][3]) {///Przekazywanie tablic 2D
 	for (int i = 0; i<3; i++){
 		for (int j = 0; j<3;j++) {
 			cout <<"("<< i <<", "<< j <<")\t"<< tab[i][j] << endl;
