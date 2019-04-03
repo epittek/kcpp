@@ -1,3 +1,8 @@
+/*!
+ * \brief Operatory przypisania
+ * abubak 2019.04.03
+ */
+
 #include <iostream>
 using namespace std;
 
