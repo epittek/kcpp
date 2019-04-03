@@ -27,6 +27,7 @@ int main() {
 
 	cout <<"\n16626 w binarnej notacji to 0100 0000 1111 0010"<< endl;
 	cout <<"Dlaczego zatem wypisuje nam tylko 1111 0010?\n"<< endl;
+	cout <<"Szukamy, jesli nie wiemy... Dzien dobry wujku Google\n"<< endl;
 
 	//unsigned char val;
 	//cout << sizeof val << endl;
