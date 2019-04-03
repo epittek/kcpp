@@ -21,6 +21,7 @@ int main() {
         cout << j << endl;
     }
 
+    cout <<"-----------"<< endl;
     // ----- Z roznica -------------------------------
     int x = 10;
     //Najpierw zostanie zwiększona wartość zmiennej x o jeden, a następnie zostanie użyta wartość 11
