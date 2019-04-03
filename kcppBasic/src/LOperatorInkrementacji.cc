@@ -3,11 +3,37 @@ using namespace std;
 
 int main() {
 
-	int a = 5;
-	cout << a << endl;
-	cout  <<  ++a  <<  endl; //preinkrementacja
-	cout  <<  a++  <<  endl; //postinkrementacja
-	cout  <<  a  <<  endl;
+    int a = 5;
+    cout << a << endl;
+    cout  <<  ++a  <<  endl; //preinkrementacja
+    cout  <<  a++  <<  endl; //postinkrementacja
+    cout  <<  a  <<  endl;
 
-	return 0;
+
+    // ----- Bez roznicy ----------------------------
+    cout <<"-----------"<< endl;
+    for(int k = 1; k < 5; k++){
+        cout << k << endl;
+    }
+
+    cout <<"-----------"<< endl;
+    for(int j = 1; j < 5; ++j){
+        cout << j << endl;
+    }
+
+    // ----- Z roznica -------------------------------
+    int x = 10;
+    //Najpierw zostanie zwiększona wartość zmiennej x o jeden, a następnie zostanie użyta wartość 11
+    int y = ++x;
+    cout << "(x, y)\t"<< x <<"\t"<< y << endl; // x = 11; y = 11
+    //printf( "x = %d; y = %d\n", x, y );
+
+    x = 10;
+    //Najpierw zostanie zwiększona wartość zmiennej x o jeden, a następnie zostanie użyta wartość 11
+    y = x++;
+    cout << "(x, y)\t"<< x <<"\t"<< y << endl; // x = 11; y = 10
+
+
+
+    return 0;
 }
