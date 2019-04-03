@@ -39,5 +39,8 @@ int main() {
 	PRL("a w binarnej notacji: ", a);
 	PRL("w w binarnej notacji: ", w);
 
+	PRS("a w binarnej notacji: ", a);
+	PRS("w w binarnej notacji: ", w);
+
 	return 0;
 }
