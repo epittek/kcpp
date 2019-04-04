@@ -20,7 +20,7 @@ int main()
     cout <<"2. "<< result[2] << endl;
 
     result[3] *= ((-(++x))*(x--))+((-(y--))%(++z)); //3
-    cout <<"i3. "<< result[3] << endl;
+    cout <<"3. "<< result[3] << endl;
 
     return 0;
 }
