@@ -6,7 +6,7 @@
 
 using namespace std;
 
-string hextobin(const string &s){
+string hextobin(const string &s){ ///Konwersja zmiennej hex to bin
     string out;
     for(auto i: s){
         uint8_t n;
