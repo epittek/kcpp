@@ -14,3 +14,4 @@
 	2. kcppKviCar - przykład klasy w c++. Ten katalog i zagadnienia w nim będą wykorzystane w późniejszym terminie, przy omawianiu klas w c++
 		1. kviCarMake  - przykład klasy i jej użycia. Kompilowanie "z użyciem Makefile"
 		2. kviCarCMake - przykład klasy i jej użycia. Kompilowanie "z użyciem cmake"
+
