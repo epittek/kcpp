@@ -21,7 +21,7 @@ string hextobin(const string &s){ ///Konwersja zmiennej hex to bin
     return out;
 }
 
-string bintohex(const string &s){
+string bintohex(const string &s){ ///Konwersja zmiennej bin to hex
     string out;
     for(uint i = 0; i < s.size(); i += 4){
         int8_t n = 0;
@@ -41,8 +41,7 @@ string bintohex(const string &s){
 }
 
 
-unsigned long hextodec(string hex)
-{
+unsigned long hextodec(string hex) { ///Konwersja zmiennej hex to dec
     unsigned long result = 0;
     for (unsigned int i=0; i<hex.length(); i++) {
         if (hex[i]>=48 && hex[i]<=57)
