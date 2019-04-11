@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
 
-void function(){
+void GotoInstead(){
   cout <<"Inside function"<< endl;
   int k;
   cin >> k;
   if(k<0){
-    function();
+    GotoInstead();
   }
 }
 
 int main()
 {
-  function();
+  GotoInstead();
 
   return 0;
 }

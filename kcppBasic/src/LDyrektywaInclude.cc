@@ -7,4 +7,6 @@ int main()
 {
    WywolywanaFunkcjaA();
    WywolywanaFunkcjaB();
+
+   return 0;
 }
