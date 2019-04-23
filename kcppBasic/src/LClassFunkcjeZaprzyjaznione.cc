@@ -4,7 +4,7 @@ using namespace std;
 class Pudelko 
 {   
  public:
-   Pudelko(float d, float s, float w) : fD(d), fW(s), fS(w) { }
+   Pudelko(float d, float s, float w) : fD(d), fS(s), fW(w) { }
    
    friend int Equalsize(Pudelko a, Pudelko b);
    
