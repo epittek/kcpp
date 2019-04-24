@@ -1,6 +1,8 @@
-/*!
- * \brief Operatory przypisania
- * abubak 2019.04.03
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.02.10
+ * \brief Operatory przypisania w C++
+ * v0.01
  */
 
 #include <iostream>

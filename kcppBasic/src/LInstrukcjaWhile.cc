@@ -1,6 +1,8 @@
-/*!
- * \brief Instrukcja while w c++
- * abubak 2019.04.09
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.04.23
+ * \brief Instrukcja While w C++
+ * v0.01
  */
 
 #include <iostream>

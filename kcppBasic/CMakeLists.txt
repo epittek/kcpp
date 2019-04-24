@@ -1,3 +1,9 @@
+#
+# \author: Arkadiusz Bubak arkadiusz@bubak.pl
+# \date 2019.02.10
+# \brief Priorytety operatorow w C++
+# v0.01
+
 cmake_minimum_required(VERSION 2.8)
 project(kcpp)
 

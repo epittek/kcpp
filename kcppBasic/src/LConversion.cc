@@ -1,7 +1,7 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
  * \date 2019.02.10
- * \brief Konversje w C++
+ * \brief Konwersje w C++
  * v0.01
  */
 

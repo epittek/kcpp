@@ -1,3 +1,10 @@
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.02.10
+ * \brief Przeliczanie dec_to_bin w C++
+ * v0.01
+ */
+
 #include <cstdlib>
 #include <iostream>
 using namespace std;

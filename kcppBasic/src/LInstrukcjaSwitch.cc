@@ -1,6 +1,8 @@
-/*!
- * \brief Instrukcja switch w c++
- * abubak 2019.04.09
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.04.09
+ * \brief Instrukcja switch w C++
+ * v0.01
  */
 
 #include <iostream>

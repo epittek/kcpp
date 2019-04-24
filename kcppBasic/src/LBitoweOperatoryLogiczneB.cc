@@ -1,3 +1,10 @@
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.02.10
+ * \brief Bitowe operatory logiczne w C++
+ * v0.01
+ */
+
 #include <iostream>
 using namespace std;
 

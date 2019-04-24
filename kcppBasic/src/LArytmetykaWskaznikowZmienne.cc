@@ -1,3 +1,10 @@
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.02.10
+ * \brief Arytmetyka wskaznikow (wskaznik zmienne) w C++
+ * v0.01
+ */
+
 #include <iostream>
 #include <stdio.h>
 #include <string>

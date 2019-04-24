@@ -1,7 +1,7 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
- * \date 2019.04.09
- * \brief Arytmetyka wskaznikow w C++
+ * \date 2019.02.10
+ * \brief Arytmetyka wskaznikow (tablice) w C++
  * v0.01
  */
 

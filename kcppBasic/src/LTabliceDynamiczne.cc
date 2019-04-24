@@ -1,3 +1,10 @@
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.02.10
+ * \brief Tablica dynamiczne w C++
+ * v0.01
+ */
+
 #include <iostream>
 #include <string.h>
 using namespace std;

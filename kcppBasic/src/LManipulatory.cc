@@ -1,3 +1,10 @@
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.02.10
+ * \brief Strumienie: manipulatory w C++
+ * v0.01
+ */
+
 #include<iostream>
 #include<iomanip>
 using namespace std;

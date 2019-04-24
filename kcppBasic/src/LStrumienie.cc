@@ -1,6 +1,8 @@
-/*!
- * \brief Strumienie w c++
- * abubak 2019.04.03
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.04.03
+ * \brief Strumienie w C++
+ * v0.01
  */
 
 #include <iostream>
