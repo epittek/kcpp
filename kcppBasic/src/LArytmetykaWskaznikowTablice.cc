@@ -1,3 +1,10 @@
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.04.09
+ * \brief Arytmetyka wskaznikow w C++
+ * v0.01
+ */
+
 //#include <stdio.h>
 #include <iostream>
 using namespace std;

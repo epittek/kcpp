@@ -1,3 +1,10 @@
+/**
+ * \author: Arkadiusz Bubak arkadiusz@bubak.pl
+ * \date 2019.04.09
+ * \brief Argumenty domyslne w C++
+ * v0.01
+ */
+
 #include<iostream>
 using namespace std;
 
