@@ -15,3 +15,4 @@
 		1. kviCarMake  - przykład klasy i jej użycia. Kompilowanie "z użyciem Makefile"
 		2. kviCarCMake - przykład klasy i jej użycia. Kompilowanie "z użyciem cmake"
 
+
