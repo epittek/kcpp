@@ -15,7 +15,8 @@ class KviVan : public KviCar
   KviVan();
   ~KviVan();
 
-  void StolePlate();
+  void StealPlate();
+  void MakeRobbery();
 
   //ClassDef(KviVan,1)
 };

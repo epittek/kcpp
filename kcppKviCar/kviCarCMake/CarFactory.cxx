@@ -28,7 +28,7 @@ int main() {
   cout <<"\n------------------ KviVan -------------------------------"<< endl;
 
   KviVan *myVan = new KviVan();
-  myVan->StolePlate();
+  myVan->StealPlate();
   myVan->SetPlate(200);
   myVan->SetFakePlate(201);
   myVan->SetColor(202);
