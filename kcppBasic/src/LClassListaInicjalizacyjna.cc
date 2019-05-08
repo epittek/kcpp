@@ -33,7 +33,8 @@ int main()
 {
    A *obiektN = new A(7, 4, 5);
    cout << obiektN->fLicznikA <<"\t"
-        << obiektN->fLicznikC << endl;
+        << obiektN->fLicznikB <<"\t"
+        << obiektN->fLicznikC << endl;;
    
    A *obiektM = new A(3, 6);
    cout << obiektM->fLicznikA <<"\t"
