@@ -1,6 +1,6 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
- * \date 2019.04.23
+ * \date 2019.05.08
  * \brief Klasy: Konstruktor kopiujacy w C++
  * v0.01
  */
