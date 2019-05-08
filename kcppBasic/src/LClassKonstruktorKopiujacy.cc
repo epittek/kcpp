@@ -15,8 +15,10 @@ class A
    A() {
       fX = fY = 0; 
    }
-   
-   A(const A &c) { //konstruktor kopiujący
+
+   /** Konstruktor kopiujacyi **/
+   // A co jesli go wcale nie zdefiniujemy? 
+   A(const A &c) {
       fX = c.fX; fY = c.fY;
    }
 
