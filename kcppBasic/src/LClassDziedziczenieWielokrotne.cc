@@ -17,7 +17,7 @@ class A
 class B : public A   
 {	
  public: 
-   int fB;
+   int fB, fI;
 };
 
 
@@ -32,8 +32,10 @@ void C::Fun(){
 	
    fA = fB;          // poprawne
    fI = 0;           // blad (niejednoznaczne)
-   //A::fI = 0;        // poprawne
-   //B::fI = 2;        // A czy to poprawne? :)
+   A::fI = 1;        // poprawne
+   B::fI = 2;        // A czy to poprawne? :)
+   cout << fI << endl;
+   cout << A::fI << endl;
 }
 
 
