@@ -1,6 +1,6 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
- * \date 2019.04.23
+ * \date 2019.05.15
  * \brief template class w C++ 
  * v0.01
  */

@@ -1,6 +1,6 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
- * \date 2019.04.23
+ * \date 2019.05.15
  * \brief template w C++ 
  * v0.01
  */
@@ -21,6 +21,6 @@ int main() {
    cout << Add(2,3)          << endl;
    cout << Add(2.6,3.2)      << endl;  // wywolanie szablonu max<double> (dedukcja typu argumentów)
    cout << Add<>(2,13)       << endl;  // wywolanie szablonu max<int> (dedukcja typu argumentów)
-   cout << Add<double>(2,14) << endl;  // wywolanie szablonu max<double> (bez dedukcji typu)
+   cout << Add<double>(2,14.2) << endl;  // wywolanie szablonu max<double> (bez dedukcji typu)
 
 }
