@@ -23,19 +23,20 @@ int main() {
    A a;
    B b;
    
-     
+   
+#define ZMIANA
+
+#ifdef ZMIANA
    A *p1 = &a;
    B *p2 = &b;
    A &r1 = a;
    B &r2 = b;
-   
-   
-/*   
+#else  
    A *p1 = &a;
    A *p2 = &b;
    A &r1 = a;
    A &r2 = b;
-  */ 
+#endif
    
    a.Funkcja();
    b.Funkcja();
