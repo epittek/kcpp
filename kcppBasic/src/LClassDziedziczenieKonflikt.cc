@@ -27,7 +27,7 @@ class C : public A, public B
       fA = fB;          // poprawne
       //fI = 0;           // błąd (niejednoznaczne)
       A::fI = 0;        // poprawne
-      //B::fI = 2;        // A czy to poprawne? :)
+      B::fI = 2;        // A czy to poprawne? :)
     }
 };
 
@@ -37,5 +37,7 @@ int main()
 {
    C *obiekt = new C();
    obiekt->Fun();
+   //cout << obiekt->A::fI << endl;
+   //cout << obiekt->B::fI << endl;
 }
 

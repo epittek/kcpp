@@ -45,7 +45,7 @@ int main()
    cout << przObiekt.fM << endl;
    
    //------------ 2 ------------------------
-   //cout << potObiekt.fM << endl;
+   cout << potObiekt.fM << endl;
    
    //------------ 3 ------------------------
    int resA = przObiekt.FunA(7);
