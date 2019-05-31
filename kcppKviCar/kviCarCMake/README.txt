@@ -1,5 +1,5 @@
 mkdir build
 cd build
-To compileFrom inside build directory call:
+To compile call from build directory:
 cmake ../
 make
