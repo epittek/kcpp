@@ -1,6 +1,6 @@
 # Pomocnicze materiały do kursu C++
 
-1. Download
+1. Download:
 
    git clone https://github.com/epittek/kcpp.git
 
