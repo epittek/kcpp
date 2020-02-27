@@ -25,5 +25,8 @@ int main()
   char fVarD[] = "Tutaj jakis napis";  /*deklaracja napisu (następuje automatyczne przypisanie tekstu zmiennej oraz określenie jej długości) */
   //char *fVarE = "A tutaj inny napis";  //podobne do powyższej metody, deprecated
 
+  cout << "fVarC: "<< fVarC << endl;
+  cout << "fVarD: "<< fVarD << endl;
+
   return 0;                              
 }
