@@ -1,8 +1,8 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
- * \date 2019.02.10
+ * \date 2019.02.10,
  * \brief String w C++
- * v0.01
+ * v0.02 2020.02.29
  */
 
 #include <iostream>
