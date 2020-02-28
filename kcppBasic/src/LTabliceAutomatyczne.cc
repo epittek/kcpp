@@ -29,7 +29,7 @@ void tablice(){
 	//tablica 3 znakow
 	char B1[]={'g', 'h', 'i'};
 	char B2[4]="abc";
-	float C[i+j];    ///<tablica 30 float
+	float C[i+j];i     ///<tablica 30 float
 	int k = 0;
 	A[0] = 1;          ///<inicj. elementu 0 wartoscia 1
 	A[j-5] = 5;
