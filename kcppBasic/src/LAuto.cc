@@ -6,17 +6,21 @@
  */
 
 #include<iostream>
+#include<typeinfo>
 #include<map>
 using namespace std;
 
 int main()
 {
 
-  // ---- sizeof -----
+  // ---- sizeof, typeid -----
   auto var1 = 137;
   cout << sizeof(var1) << endl;
-  //printf("%d\n", sizeof(var1));
-  //printf("%d\n", sizeof(var1));   //Error
+  cout << typeid(var1).name() << endl;
+  
+  auto var2 = 137.1;
+  cout << sizeof(var2) << endl;
+  cout << typeid(var2).name() << endl;
   // -------------------------------
 
 
