@@ -14,21 +14,21 @@ int main(){
 	//https://pl.wikibooks.org/wiki/C%2B%2B/String
 
 	string napis1;
-	napis1 = "text";
+	napis1 = "text1";
 
 	//inicjalizowanie łańcucha znaków w miejscu jego tworzenia
-	string napis2( "text" );
+	string napis2( "text2" );
 
 	//operator przypisania
-	string napis3 = "text";
+	string napis3 = "text3";
 
-	cout << napis1 << endl
-		<< napis2 << endl
-		<< napis3 << endl;
+	cout <<"napis1: "<< napis1 << endl
+		   <<"napis2: "<< napis2 << endl
+		   <<"napis3: "<< napis3 << endl;
 
 	string napis4(10,'X');
 
-	cout << napis4 << endl;
+	cout <<"napis4: " << napis4 << endl;
 
 
 
