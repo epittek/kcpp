@@ -19,7 +19,7 @@ int main(){
 	//inicjalizowanie łańcucha znaków w miejscu jego tworzenia
 	string napis2( "text2" );
 
-	//operator przypisania
+  //operator przypisania
 	string napis3 = "text3";
 
 	cout <<"napis1: "<< napis1 << endl
