@@ -14,18 +14,25 @@ using namespace std;
 int main(){
 	int a = 3;
 	int b = 9;
+  // float c;
+
 	//------------------------------------------
-	cout << (double)(a)/double(b) << endl;
-	cout << (double)(a)/b << endl;
-	cout << (double)(a/b) << endl;
-	cout << (double) a/b << endl;
+  // c = a/b;
+  // cout <<"-1: "<< c << endl;
+  // cout <<" 0: "<< a/b << endl;
+  cout <<" 1: "<< (double)(a)/double(b) << endl;
+	cout <<" 2: "<< (double)(a)/b << endl;
+	cout <<" 3: "<< (double)(a/b) << endl;
+	cout <<" 4: "<< (double) a/b << endl;
+  // cout <<"5: "<< double(a)/b  << endl;
+	// cout <<"6: "<< a/double(b)  << endl;
 	//------------------------------------------
 
 	//------------------------------------------
 	double c1 = static_cast<double>(a) / static_cast<double>(b);
 	double c2 = static_cast<double>(a) /b;
 	double c3 = static_cast<double>(a/b);
-	//double c4 = static_cast<double> a/b; //ERROR
+  // double c4 = static_cast<double> a/b; //ERROR
 	//------------------------------------------
   std::cout << std::fixed << std::setprecision(2) <<"c1: "<< c1 << endl;
   std::cout << std::fixed << std::setprecision(2) <<"c2: "<< c2 << endl;

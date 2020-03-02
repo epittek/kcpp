@@ -13,7 +13,7 @@ int main()
 int mm ;
 
         cout << "Godzina prawdy. W tym komputerze "
-                << "poszczeg¢lne typy\n"
+                << "poszczegolne typy\n"
                 << "maja nastepujace rozmiary w bajtach: \n"  ;
 
         cout << "typ char        : \t" << sizeof(char) << endl ;
