@@ -33,7 +33,7 @@ int main()
 
 
   // ----- Inicjalizownane zwracana wartoscia -----
-  std::map<char, float> mapa;
+  map<char, float> mapa;
   //mapa['a'] = 1.0;
   auto itA = mapa.begin(); //C++11
   std::map<char, float>::iterator itB = mapa.begin(); //C++
