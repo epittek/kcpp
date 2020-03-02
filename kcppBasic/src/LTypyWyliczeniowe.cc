@@ -12,10 +12,10 @@ enum e_acompany {
     Audi,
     BMW, 
     Cadillac,  //problem jesli nie zainicjalisuje sie wartoscia 
-    Ford = 7,
+    Ford,
     Jaguar, 
     Lexus, 
-    Maybach = 4, 
+    Maybach = 7, 
     RollsRoyce, 
     Saab
   };
@@ -26,7 +26,7 @@ int main()
   my_car_brand = Ford;
 
   if (my_car_brand == Ford) 
-    cout << "Hello, Ford-car owner!" << Ford << endl;
+    cout << "Hello, Ford-car owner!: " << BMW << endl;
 
   return 0;                              
 }
