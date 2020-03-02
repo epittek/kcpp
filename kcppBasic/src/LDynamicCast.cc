@@ -27,7 +27,7 @@ int main(){
   delete car;
 
   Derived d; Base *b = &d;
-  //dynamic_cast<Derived*>(b); // Invalid
+  //dynamic_cast<Derived*>(b); //Niepoprawne
 
   return 0;
 }
