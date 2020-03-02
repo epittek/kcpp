@@ -14,7 +14,7 @@ int main(){
 	int a = 5, b = -10;
 
 	cout << comp(a) << ' ' << comp(b);
-	cout << "\nFunkcja zosta³a wywo³ana " << comp(0) << " razy.\n";
+	cout << "\nFunkcja zostala wywolana " << comp(0) << " razy.\n";
 
 	return 0;
 }
