@@ -10,8 +10,22 @@
 using namespace std;
 
 //-----------------------------
-class Car {};
-class Ford : public Car {};
+class Car {
+   public:
+     Car(){};
+     ~Car(){};
+
+    inline void Run() { cout <<"Jestem w Car::Run"<< endl; }
+};
+
+class Ford : public Car
+{
+  public:
+    Ford(){};
+    ~Ford(){};
+
+    inline void Run() { cout <<"Jestem w Ford::Run"<< endl; }
+};
 
 //-----------------------------
 //
@@ -22,8 +36,12 @@ struct Derived : Base { };
 
 int main(){
   Ford *fordTaurus = new Ford();
+  fordTaurus->Run();
+
   Car *car = dynamic_cast<Car*>(fordTaurus);
-     // . . .
+  car->Run();
+
+  delete fordTaurus;
   delete car;
 
   Derived d; Base *b = &d;
