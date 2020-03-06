@@ -38,7 +38,7 @@ int main(){
 	a1 = '1';
 	b1 = '2';
 	a1 = b1;
-	cout << a1 << endl;
+	cout <<"a1=b1: "<< a1 << endl;
 
 
 	string a,b,c;
