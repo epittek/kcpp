@@ -17,7 +17,7 @@ int main(){
 	napis1 = "text1";
 
 	//inicjalizowanie łańcucha znaków w miejscu jego tworzenia
-	string napis2( "text2" );
+	string napis2("text2");
 
   //operator przypisania
 	string napis3 = "text3";
@@ -29,9 +29,6 @@ int main(){
 	string napis4(10,'X');
 
 	cout <<"napis4: " << napis4 << endl;
-
-
-
 
 	//Manipulacja stringami
 	string a1, b1;
