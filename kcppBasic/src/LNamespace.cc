@@ -11,14 +11,14 @@ using namespace std;
 namespace nasza {
 	int k = 7;
 }
-//using namespace nasza;
+using namespace nasza;
 
 int main(){
 	//std::cout << "Test" << std::endl;
 	cout << "Test" << endl;
-	
-  nasza::k = 9;
+
   cout << nasza::k << endl;
+  cout << k << endl;
 
 
 	return 0;
