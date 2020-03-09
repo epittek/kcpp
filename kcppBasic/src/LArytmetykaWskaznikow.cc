@@ -26,5 +26,19 @@ int main() {
 	i++;
 	cout << "*(i+q)   = " << *(i+q) << endl;
 
+/*   Zadanie
+ *    Co robia ponizsze operacje? Napisac program ktory pokazuje ich dzialanie.
+ *    p++;
+ *    ++p;
+ *    ++*p;
+ *    ++(*p);
+ *    ++*(p);
+ *    *p++;
+ *    (*p)++;
+ *    *(p)++;
+ *    *++p;
+ *    *(++p);
+ *  */
+
 	return 0;
 }
