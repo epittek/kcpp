@@ -13,11 +13,11 @@ int main(){
 
 	char mystring1[] = { 'H', 'e', 'l', 'l', 'o', '\0' };
 	char mystring2[] = "Dzień dobry";
-	char mystring3[10];	
+	char mystring3[9];	
 
-	cout << "mystring1: "<< mystring1 << endl;
-	cout << "mystring2: "<< mystring2 << endl;
-	cout << "mystring3: "<< mystring3 << endl;
+	cout << "mystring1:  "<< mystring1 << endl;
+	cout << "mystring2:  "<< mystring2 << endl;
+	cout << "mystring3:  "<< mystring3 << endl;
 
 
 	/* Not allowed
@@ -37,8 +37,9 @@ int main(){
 	//Generally for assigning values to an array, and more specifically to a string of characters, a series of functions like strcpy are used. strcpy (string copy) is defined in the cstring (string.h) library and can be called the following way:
 	//strcpy (string1, string2);
 
-	strcpy(mystring3, "Dzień dobry");
-	cout << mystring3 << endl;
+	strcpy(mystring3, "Dzień dobry wszystkim");
+	cout <<"mystring3: " <<mystring3 << endl;
+	cout <<"mystring3: " <<mystring3[11] << endl;
 
 
 	// Partial copy
@@ -52,24 +53,31 @@ int main(){
 	/* partial copy (only 5 chars): */
 	strncpy ( str3, str2, 5 );
 
-
 	cout << str1 << "\n"
 		<< str2 << "\n"
 		<< str3 << endl;
 
+  /* Prosze sprawdzic co robi sizeof
+  int iTab[10];
+  double dTab[10];
+
+  cout <<"iTab: "<< sizeof(iTab) << endl;
+  cout <<"dTab: "<< sizeof(dTab) << endl;
+ */
+
 	/*from cstring
-https://www.programiz.com/cpp-programming/library-function/cstring/strlen
-strxfrm()
-strcoll()
-strlen()
-strerror()
-memset()
-strtok()
-strstr()
-strspn()
-strrchr()
-strpbrk()
-strcspn()
+  https://www.programiz.com/cpp-programming/library-function/cstring/strlen
+  strxfrm()
+  strcoll()
+  strlen()
+  strerror()
+  memset()
+  strtok()
+  strstr()
+  strspn()
+  strrchr()
+  strpbrk()
+  strcspn()
 */
 
 	return 0;
