@@ -1,4 +1,4 @@
-From inside build directory call:
+To build a call (from build directory):
 cmake ../
 make
 
