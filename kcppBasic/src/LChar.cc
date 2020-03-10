@@ -13,7 +13,7 @@ int main(){
 
 	char mystring1[] = { 'H', 'e', 'l', 'l', 'o', '\0' };
 	char mystring2[] = "Dzień dobry";
-	char mystring3[9];	
+	char mystring3[12];	
 
 	cout << "mystring1:  "<< mystring1 << endl;
 	cout << "mystring2:  "<< mystring2 << endl;
@@ -37,7 +37,8 @@ int main(){
 	//Generally for assigning values to an array, and more specifically to a string of characters, a series of functions like strcpy are used. strcpy (string copy) is defined in the cstring (string.h) library and can be called the following way:
 	//strcpy (string1, string2);
 
-	strcpy(mystring3, "Dzień dobry wszystkim");
+	//strcpy(mystring3, "Dzien dobry wszystkim"); //A co jesli tekt bedzie dluzszy
+	strcpy(mystring3, "Dzien dobry");
 	cout <<"mystring3: " <<mystring3 << endl;
 	cout <<"mystring3: " <<mystring3[11] << endl;
 
