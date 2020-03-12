@@ -17,9 +17,11 @@
 
 
 Poniedziałkowe zajęcia (16 stycznia) odbęda się zdalnie przy użyciu Hangouta.  Odnośnik do dołączenia do zajęć:
+
 2020.03.12: https://hangouts.google.com/group/zkBqNsU6X99pXHiH8
 
 Uwagi:
-   Dostęp tylko przy użyciu kont w domenie smcebi.edu.pl.
-   Materiały pomocnicze do kursu: (github)
-   Proszę zajrzeć przed samymi zajęciami na githuba. Link do zajeć może ulec zmianie. Aktualny zostanie umieszczony w README.md
+
+  1. Dostęp tylko przy użyciu kont w domenie smcebi.edu.pl.
+  2. Materiały pomocnicze do kursu: (github)
+  3. Proszę zajrzeć przed samymi zajęciami na githuba. Link do zajeć może ulec zmianie. Aktualny zostanie umieszczony w README.md
