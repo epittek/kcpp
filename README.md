@@ -1,7 +1,7 @@
 
 Poniedziałkowe zajęcia (16 stycznia) odbęda się zdalnie przy użyciu Hangouta.  Odnośnik do dołączenia do zajęć:
 
-2020.03.12: https://hangouts.google.com/group/zkBqNsU6X99pXHiH8
+2020.03.12: https://meet.google.com/xyv-iymj-bch
 
 Uwagi:
 
