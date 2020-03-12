@@ -15,4 +15,5 @@
 		1. kviCarMake  - przykład klasy i jej użycia. Kompilowanie "z użyciem Makefile"
 		2. kviCarCMake - przykład klasy i jej użycia. Kompilowanie "z użyciem cmake"
 
+Aktualny (2020.03.12) link to zajec: https://hangouts.google.com/group/zkBqNsU6X99pXHiH8
 
