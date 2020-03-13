@@ -27,12 +27,12 @@ void h()
 int main()
 {
   cout <<"Samodzielna kompilacja:"<< endl;
-  cout <<"  g++ -c -std=c++11 -Wall -Wextra -pedantic -o LExtern.o ../src/LExtern.c"<< endl; 
+  cout <<"  g++ -c -std=c++11 -Wall -Wextra -pedantic -o LExtern.o ../src/LExtern.cc"<< endl; 
   cout <<"Rozmontowanie/odwiklanie (diassemble):"<< endl;
   cout <<"  readelf -s LExtern.o\n" << endl;
 
   cout <<"Lub jesli z uzyciem cmake:"<< endl;
-  cout <<"  readelf -s CMakeFiles/LExtern.dir/src/LExtern.cc\n"<< endl;
+  cout <<"  readelf -s CMakeFiles/LExtern.dir/src/LExtern.cc.o\n"<< endl;
 
   cout <<"'Unmangle' nazw funkcji:"<< endl;
   cout <<"  c++filt _Z1fv"<< endl;
