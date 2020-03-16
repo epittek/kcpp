@@ -11,16 +11,23 @@ using namespace std;
 
 void a() {}
 void b() {}
+//void b(int zmienna) {}
 
 extern "C" {
   void ca() {}
   void cb() {}
+  //void cb(int a) {}  // Error
 }
+
+extern "C" void cc(){}
 
 /* Zapobiegnij optymalizacji funkcji g i eg */
 void h()
 {
-  b(); cb();
+  b();
+  cb();
+  cc();
+  //b(2);
 }
 
 
