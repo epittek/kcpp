@@ -13,11 +13,16 @@ void a() {}
 void b() {}
 //void b(int zmienna) {}
 
+
+#ifdef __cplusplus
 extern "C" {
+#endif
   void ca() {}
   void cb() {}
   //void cb(int a) {}  // Error
+#ifdef __cplusplus
 }
+#endif
 
 extern "C" void cc(){}
 
