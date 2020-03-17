@@ -1,5 +1,7 @@
 
-# Zajęcia aż do odwołania odbywać będą się z wykorzystaniem Google Meet Hangouta.  Odnośnik do dołączenia do zajęć:
+# Zajęcia zdalne
+
+Zajęcia aż do odwołania odbywać będą się z wykorzystaniem Google Meet Hangout.  Odnośnik do dołączenia do zajęć:
 
    https://meet.google.com/xyv-iymj-bch
 
