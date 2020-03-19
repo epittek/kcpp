@@ -49,3 +49,19 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 4. Tablice
  - Proszę się zastanowić o co tak naprawę chodzi
  - nazwać program: ZadZwracanie.cc
+
+
+ Zadanie 6
+ -------------------------------------
+ Co robia ponizsze operacje? Napisac program ktory pokazuje ich dzialanie.
+ p++;
+ ++p;
+ ++*p;
+ ++(*p);
+ ++*(p);
+ *p++;
+ (*p)++;
+ *(p)++;
+ *++p;
+ *(++p);
+ - nazwać program: ZadArytmetykaWskaznikow.cc
