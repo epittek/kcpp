@@ -1,0 +1,28 @@
+Zadanie 1
+--------------------------------------
+Napisać program który zawiera:
+- funkcję main
+- 5 innych funkcji, z czego dwie zadeklarowane jako: extern "C"
+- wywołując program decydujemy, które z funkcji mają zostać wykonane przez podanie tego w liście argumentów przekazanych do funkcji main
+- Nazwać program: MainExample.cc 
+
+
+
+Zadanie 2
+--------------------------------------
+Napisać program z "Priorytety operatorów"
+- kcpp01: strona 18
+
+
+
+Zadanie 3
+--------------------------------------
+Napisać program przeliczający
+- liczby binarne na dziesiętne
+- liczby dziesiętne na binarne
+
+(github) LPrzeliczanieDec2BinA.cc
+(github) LPrzeliczanieDec2BinB.cc
+
+
+
