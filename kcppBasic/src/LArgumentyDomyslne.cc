@@ -14,6 +14,23 @@ int zwieksz(int a, int b = 1) {
 
 int zmniejsz(int a, int b = 1);
 
+/* //---------------------------------------------------------------
+ * // Czy możliwe jest przeciążenie funkcji 'zwieksz'?
+ * int zwieksz(int a){
+ *   return a;
+ * }
+ *
+ * int zwiekszNew(int a, int b){
+ *   return a + b;
+ * }
+ *
+ * int zwiekszNew(int a){
+ *   return a;
+ * }
+ * //--------------------------------------------------------------- */
+
+
+
 int main(){
 
 	int wynik;
@@ -29,6 +46,8 @@ int main(){
 	wynik = zmniejsz(5);
 	cout << "Wywolanie zmniejsz(5): "<< wynik << endl;
 
+ 
+  cout <<"Czy możliwe jest przeciążenie funkcji 'zwieksz'"<< endl;
 	return 0;
 }
 
