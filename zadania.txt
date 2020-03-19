@@ -27,8 +27,9 @@ Napisać program przeliczający
 - liczby binarne na dziesiętne (nazwać: Bin2Dec.cc)
 - liczby dziesiętne na binarne (nazwać: Dec2Bin.cc)
 
-(github) LPrzeliczanieDec2BinA.cc
-(github) LPrzeliczanieDec2BinB.cc
+  Przykłady
+  (github) LPrzeliczanieDec2BinA.cc
+  (github) LPrzeliczanieDec2BinB.cc
 
 
 
