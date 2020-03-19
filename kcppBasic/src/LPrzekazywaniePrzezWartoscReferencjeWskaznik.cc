@@ -10,14 +10,14 @@ using namespace std;
 
 
 void swapA(int a, int b) { // Przekazywanie zmiennych
-	cout << "\n---> Przez wartosc:"<< endl;
+	cout <<"\n---> Przez wartosc:"<< endl;
 	int temp = a;
 	a = b;
 	b = temp;    
 }
 
 void swapB(int &a, int &b) { //Przekazywanie przez referencje
-	cout << "\n---> Przez referencje:"<< endl;
+	cout <<"\n---> Przez referencje:"<< endl;
 	int temp = a;
 	a = b;
 	b = temp;
@@ -25,26 +25,31 @@ void swapB(int &a, int &b) { //Przekazywanie przez referencje
 
 
 void swapC(int *a, int *b) { //Przekazywanie przez wskaznik
-	cout << "\n---> Przez wskaznik:"<< endl;
+	cout <<"\n---> Przez wskaznik:"<< endl;
 	int *temp = a;
 	a = b;
 	b = temp;
 }
 
 
-int main(){
+int main() {
 
 	int A = 4;   
 	int B = 6;
 
 	cout <<"Przed: A = "<< A <<" B = "<< B << endl;
-	swapA(A, B);
+
+  //--- przez zmienne (copia) --------------
+  swapA(A, B);
 	cout <<"Po:    A = "<< A <<" B = "<< B << endl;
 
+
+  //--- przez referencje -------------------
 	swapB(A, B);    
 	cout <<"Po:    A = "<< A <<" B = "<< B << endl;
 
-	//przez wskaznik
+
+	//--- przez wskaznik ----------------------
 	int *wskA = &A;
 	int *wskB = &B;
 	swapC(wskA, wskB);    
@@ -52,6 +57,7 @@ int main(){
 
 	swapC(&A, &B);    
 	cout <<"Po:    A = "<< A <<" B = "<< B << endl;
+
 
 	return 0;
 }
