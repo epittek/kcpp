@@ -14,10 +14,13 @@ void przekaz1D(int tab[]){ ///Przekazywanie tablic 1D
     for (int i = 0; i<6; i++){
         cout << i << "\t" << tab[i] << endl;
      }
+    cout <<"Zmienić tablice w funkcji. Wypisać poza funkcją."<< endl;
+    cout <<"Czy wartości poza funkcją się zmieniły?"<< endl;
     cout <<"-------------------"<< endl;
 }
 
 //---z zachowaniem rozmiaru --------
+// Zadanie
 /* void przekaz1DA(...){ ///Przekazywanie tablic 1D
  *      //jak?
  *      //Zadanie: 10 minut
@@ -31,6 +34,8 @@ void przekaz1Dwsk(int *tab){ ///Przekazywanie tablic 1D
     for (int i = 0; i<6; i++){
         cout << i << "\t" << tab[i] << endl;
     }
+    cout <<"Zmienić tablice w funkcji. Wypisać poza funkcją."<< endl;
+    cout <<"Czy wartości poza funkcją się zmieniły?"<< endl;
     cout <<"-------------------"<< endl;
 }
 
