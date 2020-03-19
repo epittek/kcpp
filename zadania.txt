@@ -1,3 +1,8 @@
+Programy umieszczamy na swoim githubie w katalogu: zadania
+------------------------------------------------------------
+
+
+
 Zadanie 1
 --------------------------------------
 Napisać program który zawiera:
@@ -12,14 +17,15 @@ Zadanie 2
 --------------------------------------
 Napisać program z "Priorytety operatorów"
 - kcpp01: strona 18
+- nazwać program: PriorytetyOperatorow.cc
 
 
 
 Zadanie 3
 --------------------------------------
 Napisać program przeliczający
-- liczby binarne na dziesiętne
-- liczby dziesiętne na binarne
+- liczby binarne na dziesiętne (nazwać: Bin2Dec.cc)
+- liczby dziesiętne na binarne (nazwać: Dec2Bin.cc)
 
 (github) LPrzeliczanieDec2BinA.cc
 (github) LPrzeliczanieDec2BinB.cc
