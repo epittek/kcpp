@@ -35,6 +35,6 @@ int main()
     dec_to_bin(liczba);
     cout<<endl;
 
-    system("pause");
+    //system("pause");
     return 0;
 } 
