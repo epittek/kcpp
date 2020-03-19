@@ -1,8 +1,8 @@
 /**
  * \author: Arkadiusz Bubak arkadiusz@bubak.pl
- * \date 2019.04.09
- * \brief Bitowe operatory logiczne w C++
- * v0.01
+ * \date 2020.03.18
+ * \brief Arytmetyka wskaznikow w C++
+ * v0.02
  */
 
 #include <iostream>
