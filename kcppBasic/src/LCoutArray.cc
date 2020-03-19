@@ -14,10 +14,12 @@ int main()
 {
    int  iArray[] = {1,2,3,4,5,6,7};
 
-   //int iSize = sizeof(array)/sizeof(array[0]);
-   int iSize = *(&iArray + 1) - iArray;
+   int iSize = sizeof(iArray)/sizeof(iArray[0]);
+   //int iSize = *(&iArray + 1) - iArray;
+
    std::copy(iArray, iArray+iSize, std::ostream_iterator<int>(std::cout," "));
    //std::copy(std::begin(iArray), std::end(iArray), std::ostream_iterator<int>(std::cout," "));
+   
    std::cout << std::endl;
 
    /* Wyjasnienie drugiego sposoby dostanie wielkosci tablicy bez uzycia sizeof

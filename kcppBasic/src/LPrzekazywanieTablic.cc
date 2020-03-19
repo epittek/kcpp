@@ -17,6 +17,12 @@ void przekaz1D(int tab[]){ ///Przekazywanie tablic 1D
     cout <<"-------------------"<< endl;
 }
 
+//---z zachowaniem rozmiaru --------
+/* void przekaz1DA(...){ ///Przekazywanie tablic 1D
+ *      //jak?
+ *      //Zadanie: 10 minut
+ * } */
+
 //---------------------------------
 void przekaz1Dwsk(int *tab){ ///Przekazywanie tablic 1D
     //Pass an array. Array decays to a pointer. Thus you lose size information
