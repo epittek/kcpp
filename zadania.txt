@@ -9,7 +9,7 @@ Napisać program który zawiera:
 - funkcję main
 - 5 innych funkcji, z czego dwie zadeklarowane jako: extern "C"
 - wywołując program decydujemy, które z funkcji mają zostać wykonane przez podanie tego w liście argumentów przekazanych do funkcji main
-- Nazwać program: MainExample.cc 
+- Nazwać program: ZadMainExample.cc 
 
 
 
@@ -17,15 +17,15 @@ Zadanie 2
 --------------------------------------
 Napisać program z "Priorytety operatorów"
 - kcpp01: strona 18
-- nazwać program: PriorytetyOperatorow.cc
+- nazwać program: ZadPriorytetyOperatorow.cc
 
 
 
 Zadanie 3
 --------------------------------------
 Napisać program przeliczający
-- liczby binarne na dziesiętne (nazwać: Bin2Dec.cc)
-- liczby dziesiętne na binarne (nazwać: Dec2Bin.cc)
+- liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
+- liczby dziesiętne na binarne (nazwać: ZadDec2Bin.cc)
 
   Przykłady
   (github) LPrzeliczanieDec2BinA.cc
@@ -33,3 +33,7 @@ Napisać program przeliczający
 
 
 
+Zadanie 4
+--------------------------------------
+Napisz program przekazujący tablice z zachowaniem rozmiaru
+- nazwać program: ZadPrzekazywaniaTablic.cc
