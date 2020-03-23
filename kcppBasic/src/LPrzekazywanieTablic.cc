@@ -11,7 +11,7 @@ using namespace std;
 
 //---------------------------------
 void przekaz1D(int tab[]){ ///Przekazywanie tablic 1D
-    for (int i = 0; i<6; i++){
+    for (int i = 0; i < 6; i++){
         cout << i << "\t" << tab[i] << endl;
      }
     cout <<"Zmienić tablice w funkcji. Wypisać poza funkcją."<< endl;
@@ -22,16 +22,18 @@ void przekaz1D(int tab[]){ ///Przekazywanie tablic 1D
 //---z zachowaniem rozmiaru --------
 // Zadanie
 /* void przekaz1DA(...){ ///Przekazywanie tablic 1D
+   int iSize = sizeof(iArray)/sizeof(iArray[0]);
  *      //jak?
  *      //Zadanie: 10 minut
  * } */
+
 
 //---------------------------------
 void przekaz1Dwsk(int *tab){ ///Przekazywanie tablic 1D
     //Pass an array. Array decays to a pointer. Thus you lose size information
     //int iSize = *(&tab + 1) - tab;
     //cout <<"Tab size: "<< iSize << endl;
-    for (int i = 0; i<6; i++){
+    for (int i = 0; i < 6; i++){
         cout << i << "\t" << tab[i] << endl;
     }
     cout <<"Zmienić tablice w funkcji. Wypisać poza funkcją."<< endl;
@@ -53,10 +55,12 @@ void przekaz2D(int tab[3][3]) {///Przekazywanie tablic 2D
 
 
 
+
+//-------------------------------
 int main() {
 
 	int tablica1D[6] = {1,2,3,4,5,6};
- 
+
     // nazwa tablicy to wskaźnik na tablica[0]
     przekaz1D(tablica1D);
     przekaz1Dwsk(tablica1D);
