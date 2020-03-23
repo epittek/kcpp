@@ -23,14 +23,16 @@ int main() {
 	unsigned int getval;
 	unsigned char a, b;
 
-	cout << "Podaj liczbe od 0 do 255: ";
+	cout << "Podaj liczbe 'a' od 0 do 255: ";
 	cin >> getval; a = getval;
-	PR("a w bin notacji: ", a);
 
-	cout << "Podaj liczbe od 0 do 255: ";
+	cout << "Podaj liczbe 'b' od 0 do 255: ";
 	cin >> getval; b = getval;
+
+	PR("a w binarnej notacji: ", a);
 	PR("b w binarnej notacji: ", b);
-	PR("a | b = ", a | b);
+
+  PR("a | b = ", a | b);
 	PR("a & b = ", a & b);
 	PR("a ^ b = ", a ^ b);
 	PR("~a = ", ~a);

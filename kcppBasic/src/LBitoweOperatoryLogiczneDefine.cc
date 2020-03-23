@@ -27,7 +27,7 @@ int main(){
 	for(int i = 0; i<= 10; i++) {
 		PR(" in binary: ", i);
 		//cout << i <<"\t";
-		//printBinary(i);
+	  //printBinary(i);
 		//cout << endl;
 	}
 
