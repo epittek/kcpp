@@ -1,4 +1,5 @@
 Programy umieszczamy na swoim githubie w katalogu: zadania
+Zwrócić uwagę na nazwy programów
 ------------------------------------------------------------
 
 
@@ -9,50 +10,20 @@ Napisać program który zawiera:
 - funkcję main
 - 5 innych funkcji, z czego dwie zadeklarowane jako: extern "C"
 - wywołując program decydujemy, które z funkcji mają zostać wykonane przez podanie tego w liście argumentów przekazanych do funkcji main
-- Nazwać program: ZadMainExample.cc 
-
+- nazwać program: ZadMainExample.cc 
 
 
 Zadanie 2
---------------------------------------
-Napisać program z "Priorytety operatorów"
-- kcpp01: strona 18
-- nazwać program: ZadPriorytetyOperatorow.cc
-
-
-
-Zadanie 3
---------------------------------------
-Napisać program przeliczający
-- liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
-- liczby dziesiętne na binarne (nazwać: ZadDec2Bin.cc)
-
-  Przykłady
-  (github) LPrzeliczanieDec2BinA.cc
-  (github) LPrzeliczanieDec2BinB.cc
-
-
-
-Zadanie 4
---------------------------------------
-Napisz program przekazujący tablice z zachowaniem rozmiaru
-- nazwać program: ZadPrzekazywaniaTablic.cc
-
-
-
-Zadanie 5
 --------------------------------------
 Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 1. Przez wartość
 2. Przez referencje
 3. Przez wskaźnik
-4. Tablice
- - Proszę się zastanowić o co tak naprawę chodzi
+4. Tablice (proszę się zastanowić o co tak naprawę chodzi)
  - nazwać program: ZadZwracanie.cc
 
 
-
- Zadanie 6
+ Zadanie 3
  -------------------------------------
  Co robia ponizsze operacje? Napisac program ktory pokazuje ich dzialanie.
  p++;
@@ -66,3 +37,29 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
  *++p;
  *(++p);
  - nazwać program: ZadArytmetykaWskaznikow.cc
+
+
+Zadanie 4
+--------------------------------------
+Napisać program z "Priorytety operatorów"
+- kcpp02: strona 18
+- nazwać program: ZadPriorytetyOperatorow.cc
+
+
+Zadanie 5
+--------------------------------------
+Napisać program przeliczający
+- liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
+- liczby dziesiętne na binarne (nazwać: ZadDec2Bin.cc)
+
+  Przykłady
+  (github) LPrzeliczanieDec2BinA.cc
+  (github) LPrzeliczanieDec2BinB.cc
+
+
+Zadanie 6
+--------------------------------------
+Napisz program przekazujący tablice z zachowaniem rozmiaru
+- nazwać program: ZadPrzekazywaniaTablic.cc
+
+
