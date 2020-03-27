@@ -60,10 +60,12 @@ int main(int argc, char *argv[]){
   cout <<"Rozmiar: "<< ROZMIAR << endl;
 
   //------ Sposób 1 ----------------------
-  if (argv[1] == "yes");              // Wrong, compares two pointers
-  if (strcmp(argv[1], "yes") == 0);   // This compares what the pointers point to
-  if (std::string(argv[1]) == "yes"); // Works fine
-  if (argv[1] == std::string("yes")); // Works fine
+  //if (argv[1] == "yes");              // Wrong, compares two pointers
+  //if (strcmp(argv[1], "yes") == 0);   // This compares what the pointers point to
+  //if (std::string(argv[1]) == "yes"); // Works fine
+  //f (argv[1] == std::string("yes")); // Works fine
+
+
   if(argc == 2){
     if(argv[1] == string("funA")) funA();
     if(argv[1] == string("funB")) funB();
