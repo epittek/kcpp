@@ -27,14 +27,14 @@ int main() {
         << result[0] << "\t"
         << result[1] << endl;
 
-    /*
-    for(int i = 0; i < 100; i++){
-       sleep(1);
-       if(i%10 == 0){
-           cout <<"#"<<i<< endl;
-       }
-    }
-    */
+    
+    /* for(int i = 0; i < 100; i++){
+     *    sleep(1);
+     *    if(i%10 == 0){
+     *        cout <<"#"<<i<< endl;
+     *    }
+     * } */
+    
 
     return 0;   
 }
