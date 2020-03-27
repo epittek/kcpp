@@ -13,6 +13,9 @@ using namespace std;
 
 //--- dostep za pomoca indeksu --------------------------------------
 void funA(){
+  
+  cout <<"Dostep za pomocą indeksu"<< endl;
+  cout <<"----------------------------"<< endl;
 
 	int tab[ROZMIAR];
 	int i; 
@@ -31,6 +34,9 @@ void funA(){
 //--- dostep za pomoca adresu i indeksu ----------------------------
 void funB(){
 
+  cout <<"Dostep za pomocą adresu i indeksu"<< endl;
+  cout <<"----------------------------"<< endl;
+
 	int tab[ROZMIAR];
 	int i; 
 	int k;
@@ -47,8 +53,20 @@ void funB(){
 
 
 
-int main(){
-	funA();
+int main(int argc, char *argv[]){
 
+  cout <<"Rozmiar tablicy zdefiniowany przez dyrektywę preprocesora"<< endl;
+  cout <<"Rozmiar: "<< ROZMIAR << endl;
+
+  /* if (argv[1] == "yes");              // Wrong, compares two pointers
+   * if (strcmp(argv[1], "yes") == 0);   // This compares what the pointers point to
+   * if (std::string(argv[1]) == "yes"); // Works fine
+   * if (argv[1] == std::string("yes")); // Works fine */
+  if(argc == 2){
+    if(argv[1] == string("funA")) funA();
+    if(argv[1] == string("funB")) funB();
+  }else{
+    cout <<"Podaj jako argument: [funA|funB]"<< endl; 
+  }
 	return 0;
 }
