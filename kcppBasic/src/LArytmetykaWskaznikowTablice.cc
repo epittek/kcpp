@@ -7,6 +7,7 @@
 
 //#include <stdio.h>
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 #define ROZMIAR 10
