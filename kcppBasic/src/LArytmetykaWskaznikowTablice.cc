@@ -75,19 +75,19 @@ int main(int argc, char *argv[]){
   //----------------------------------------
 
   //------ Sposób 2 ------------------------
-  string sArgument;
-  cout <<"Podaj jako argument: [funA|funB]:"<< endl;
-  cin >> sArgument;
-
-  if(sArgument == "funA"){
-    funA();
-  }
-  else if(sArgument == "funB"){
-    funB();
-  }
-  else {
-    cout <<"Wrong argument" << endl;
-  }
+/*   string sArgument;
+ *   cout <<"Podaj jako argument: [funA|funB]:"<< endl;
+ *   cin >> sArgument;
+ *
+ *   if(sArgument == "funA"){
+ *     funA();
+ *   }
+ *   else if(sArgument == "funB"){
+ *     funB();
+ *   }
+ *   else {
+ *     cout <<"Wrong argument" << endl;
+ *   } */
  //-----------------------------------------
 
   //------ Sposób 3,4 ----------------------
