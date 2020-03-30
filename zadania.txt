@@ -33,6 +33,14 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
 
  Zadanie 4
  -------------------------------------
+ Wyjaśnić i[q] gdy i jest 'int', a q jest wskaźnikiem na tablice
+ - wyjaśnienie  w kometarzu
+ - przykład zastosowania
+ - nazwać program: ZadIq.cc
+
+
+ Zadanie 4
+ -------------------------------------
  Co robia ponizsze operacje? Napisac program ktory pokazuje ich dzialanie.
  p++;
  ++p;
