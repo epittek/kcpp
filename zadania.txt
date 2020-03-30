@@ -39,7 +39,7 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
  - nazwać program: ZadIq.cc
 
 
- Zadanie 4
+ Zadanie 5
  -------------------------------------
  Co robia ponizsze operacje? Napisac program ktory pokazuje ich dzialanie.
  p++;
@@ -55,21 +55,21 @@ Zadanie: Napisać program z czterema funkcjami z których każda zwraca inaczej:
  - nazwać program: ZadArytmetykaWskaznikow.cc
 
 
-Zadanie 5
+Zadanie 6
 --------------------------------------
  Patrz: LArytmetykaWskasnikowTablice.cc
  Zaproponuj inne dwa sposoby wyboru wywołania funkcji
  - nazwać program: ZadWywolanieFunkcji.cc 
 
 
-Zadanie 6
+Zadanie 7
 --------------------------------------
 Napisać program z "Priorytety operatorów"
 - kcpp02: strona 18
 - nazwać program: ZadPriorytetyOperatorow.cc
 
 
-Zadanie 7
+Zadanie 8
 --------------------------------------
 Napisać program przeliczający
 - liczby binarne na dziesiętne (nazwać: ZadBin2Dec.cc)
@@ -80,7 +80,7 @@ Napisać program przeliczający
   (github) LPrzeliczanieDec2BinB.cc
 
 
-Zadanie 8
+Zadanie 9
 --------------------------------------
 Napisz program przekazujący tablice z zachowaniem rozmiaru
 - nazwać program: ZadPrzekazywaniaTablic.cc
