@@ -64,8 +64,7 @@ Zadanie 6
 
 Zadanie 7
 --------------------------------------
-Napisać program z "Priorytety operatorów"
-- kcpp02: strona 18
+Napisać program z "Priorytety operatorów" (kcpp02::18) - na zajeciach
 - nazwać program: ZadPriorytetyOperatorow.cc
 
 
@@ -86,3 +85,7 @@ Napisz program przekazujący tablice z zachowaniem rozmiaru
 - nazwać program: ZadPrzekazywaniaTablic.cc
 
 
+Zadanie 10
+--------------------------------------
+Napisz program pokazujący funkcjonalnosc wypisywania na ekran oraz
+pokazujacy wykonanie tych samych operacji w c i c++ (kcpp02::34) - na zajeciach
