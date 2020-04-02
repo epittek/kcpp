@@ -22,7 +22,10 @@ void InputZeSpacjami(){
 
 void InputZeSpacjamiPoprawny(){
 
-    //Jeśli przed użyciem funkcji "getline" użyjemy obiektu "cin", ten ostatni pozostawia zwykle znak końca wiersza '\n' w buforze klawiatury. Funkcja "getline" napotykając ten znak natychmiast kończy działanie, więc żeby uniknąć błędnego działania programu, należy wywołać funkcję cin.ignore().
+    //Jeśli przed użyciem funkcji "getline" użyjemy obiektu "cin", ten ostatni pozostawia
+    //zwykle znak końca wiersza '\n' w buforze klawiatury. Funkcja "getline" napotykając
+    //ten znak natychmiast kończy działanie, więc żeby uniknąć błędnego działania programu,
+    //należy wywołać funkcję cin.ignore().
 
     //cout << "Podaj liczbę: ";
     //int liczba;
@@ -32,6 +35,7 @@ void InputZeSpacjamiPoprawny(){
     string tekst;
     cin.ignore(); // to wywołanie usunie z bufora znak '\n' pozostawiony przez obiekt "cin"
     getline(cin, tekst);
+    //std::getline(std::cin, tekst);
 
     cout  << tekst << endl;
     //cout << liczba << ' ' << tekst << endl;
@@ -51,13 +55,13 @@ int main(){
     cout <<"Wpisales: "<< A << endl;
 
 
-    cout <<"Podaj 2 wartosci: ";
+    cout <<"Podaj dwie wartosci: ";
     cin >> B >> C;
     cout <<"Wpisales: "<< A <<"\t"<< B << endl;
 
 
-    InputZeSpacjami();
-    //InputZeSpacjamiPoprawny();
+    //InputZeSpacjami();
+    InputZeSpacjamiPoprawny();
 
     return 0;
 }

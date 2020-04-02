@@ -10,8 +10,8 @@
 using namespace std;
 
 int main () {
-    long x;   // Zmienna do przechowania liczby
-    string napis;   // Zmienna do przechowania napisu
+    long x;           // Zmienna do przechowania liczby
+    string napis;     // Zmienna do przechowania napisu
     stringstream ss;  // Strumień do napisów
 
     cout << "Podaj dowolna liczbe calkowita: ";
@@ -21,6 +21,7 @@ int main () {
     napis = ss.str();   // Zamieniamy zawartość strumienia na napis
 
     cout << "Dlugosc napisu wynosi " << napis.size() << " znakow." << endl;
+
 
     return 0;
 }
