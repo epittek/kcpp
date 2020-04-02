@@ -87,5 +87,9 @@ Napisz program przekazujący tablice z zachowaniem rozmiaru
 
 Zadanie 10
 --------------------------------------
-Napisz program pokazujący funkcjonalnosc wypisywania na ekran oraz
+Napisz program pokazujący funkcjonalnosc:
+- wypisywania na ekran,
+- zapisywania do pliku,
+- odczytywania z pliku,
 pokazujacy wykonanie tych samych operacji w c i c++ (kcpp02::34) - na zajeciach
+
