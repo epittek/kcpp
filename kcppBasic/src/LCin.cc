@@ -16,12 +16,12 @@ int main(int argc, char *argv[]){
     if(argv[1] == string("0")){
       char cVar0;
       cout << "Podaj wartosc: ";
-      cin >> cVar0;                     //-- ERROR
-      cout <<"*cVar0: "<< cVar0 << endl;
+      cin >> cVar0;                 // porównaj do "2"
+      cout <<"cVar0: "<< cVar0 << endl;
 
      char cVar01;
      //cVar01 = "error";  //error
-     cVar01 = 'e';
+     cVar01 = 'error';
      cout <<"*cVar01: "<< cVar01 << endl;
 
     }
