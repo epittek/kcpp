@@ -12,6 +12,8 @@ using namespace std;
 
 void InputZeSpacjami(){
 
+    cout <<"--------------------"<<endl;
+    cout <<"Input ze spacjami (zły)"<< endl;
     cout << "Podaj tekst: ";
     string tekst;
     getline(cin, tekst);
@@ -27,9 +29,11 @@ void InputZeSpacjamiPoprawny(){
     //ten znak natychmiast kończy działanie, więc żeby uniknąć błędnego działania programu,
     //należy wywołać funkcję cin.ignore().
 
-    //cout << "Podaj liczbę: ";
-    //int liczba;
-    //cin >> liczba;
+    cout <<"--------------------"<<endl;
+    cout <<"Input ze spacjami (poprawny)"<< endl;
+    cout << "Podaj liczbę: ";
+    int liczba;
+    cin >> liczba;
 
     cout << "Podaj tekst: ";
     string tekst;
@@ -57,11 +61,12 @@ int main(){
 
     cout <<"Podaj dwie wartosci: ";
     cin >> B >> C;
-    cout <<"Wpisales: "<< A <<"\t"<< B << endl;
+    cout <<"Wpisales: "<< B <<"\t"<< C << endl;
+    cout <<"Wpisales: "<< B <<"\t"<< A << endl;
 
 
-    //InputZeSpacjami();
-    InputZeSpacjamiPoprawny();
+    InputZeSpacjami();
+    //InputZeSpacjamiPoprawny();
 
     return 0;
 }

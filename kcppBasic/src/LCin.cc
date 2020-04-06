@@ -21,8 +21,8 @@ int main(int argc, char *argv[]){
 
      char cVar01;
      //cVar01 = "error";  //error
-     cVar01 = 'error';
-     cout <<"*cVar01: "<< cVar01 << endl;
+     cVar01 = 'koerror';
+     cout <<"cVar01: "<< cVar01 << endl;
 
     }
 
