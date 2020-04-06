@@ -91,5 +91,13 @@ Napisz program pokazujący funkcjonalnosc:
 - wypisywania na ekran,
 - zapisywania do pliku,
 - odczytywania z pliku,
-pokazujacy wykonanie tych samych operacji w c i c++ (kcpp02::34) - na zajeciach
+- nazwac program: ZadCinCoutFile.cc
+
+
+Zadanie 11
+--------------------------------------
+Napisz program:
+- pokazujacy wykonanie tych samych operacji w c i c++ (kcpp02::34)
+- nazwac program: ZadCandCPP.cc
+
 
