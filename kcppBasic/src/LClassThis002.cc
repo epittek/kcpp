@@ -18,7 +18,10 @@ class Licznik
       return *this; 
     }          
 
-    Licznik& Ustaw(int n) { this->fN = n; return *this; }   // (1) (3)
+    Licznik& Ustaw(int n) {                                // (1) (3)
+      this->fN = n;
+      return *this;
+    }
     int Pokaz() { return fN; }
 
   private:
@@ -29,5 +32,8 @@ class Licznik
 int main()
 {
   Licznik obiekt;
-  cout << obiekt.Ustaw(5).Zwieksz().Pokaz() << endl;         // (2)
+  int zmienna;
+  cin >> zmienna;
+
+  cout << obiekt.Ustaw(zmienna).Zwieksz().Pokaz() << endl;  // (2)
 }

@@ -101,3 +101,17 @@ Napisz program:
 - nazwac program: ZadCandCPP.cc
 
 
+Zadanie 12
+--------------------------------------
+Napisz program pokazujący działanie:
+- while,
+- do-while,
+- for
+- wykorzystaj: break, continue, return
+- nazwij program: ZadPetle.cc
+
+
+Zadanie 13
+--------------------------------------
+Pokaż działanie uni (niebezpieczenstwa, bledy)
+- nazwij program: ZadUnia.cc
