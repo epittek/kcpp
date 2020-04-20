@@ -12,7 +12,7 @@ int main()
 {   
   int i = 5;
   cout << i << endl;
-
+  
   while(i < 10) i++; //po wykonaniu petli i = 10
   cout << i << endl;
 
