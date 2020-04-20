@@ -105,7 +105,7 @@ Zadanie 12
 --------------------------------------
 Napisz program pokazujący działanie:
 - while,
-- do-while,
+- do-while (pokazujące while i do-while ze inkrementacją: i++, ++i)
 - for
 - wykorzystaj: break, continue, return
 - nazwij program: ZadPetle.cc
@@ -115,3 +115,10 @@ Zadanie 13
 --------------------------------------
 Pokaż działanie uni (niebezpieczenstwa, bledy)
 - nazwij program: ZadUnia.cc
+
+
+Zadanie 14
+--------------------------------------
+Napisz program wykorzystujący switch gdzie:
+- zamiast pojedynczego znaku będzie sprawdzane całę słowo
+- nazwij program: ZadSwitch.cc
