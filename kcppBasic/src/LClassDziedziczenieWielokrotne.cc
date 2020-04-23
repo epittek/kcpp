@@ -31,9 +31,9 @@ class C : public B
 void C::Fun(){
 	
    fA = fB;          // poprawne
-   fI = 0;           // blad (niejednoznaczne)
+   fI = 7;           // blad (niejednoznaczne)
    A::fI = 1;        // poprawne
-   B::fI = 2;        // A czy to poprawne? :)
+   //B::fI = 2;        // A czy to poprawne? :) Gdy odkomentujemy, to ile będzie wynosiło fI
    cout << fI << endl;
    cout << A::fI << endl;
 }
