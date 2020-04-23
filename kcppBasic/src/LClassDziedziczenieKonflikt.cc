@@ -27,7 +27,7 @@ class C : public A, public B
       fA = fB;          // poprawne
       //fI = 0;           // błąd (niejednoznaczne)
       A::fI = 0;        // poprawne
-      B::fI = 2;        // A czy to poprawne? :)
+      //B::fI = 2;        // A czy to poprawne? :)
     }
 };
 
