@@ -8,8 +8,6 @@
 #include <iostream>
 using namespace std;
 
-class C;
-
 //-----------------------------------------------------------
 class A 
 {
@@ -18,6 +16,9 @@ class A
       fZmiennaA = A;
       fZmiennaB = B;
      }
+   /* void SetABZero() {
+    *   fZmiennaA = fZmiennaB = 0;
+    * } */
    
  private:
    int fZmiennaA, fZmiennaB;
@@ -31,7 +32,8 @@ class B
 {
  public:
    void ZerujA(A &obj) {
-      obj.fZmiennaA = obj.fZmiennaB = 0; 
+      obj.fZmiennaA = obj.fZmiennaB = 0;
+      //obj.SetABZero(); //Gdy class B nie jest zaprzyjaźniona 
    }
 };
 
