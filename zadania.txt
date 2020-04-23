@@ -122,3 +122,17 @@ Zadanie 14
 Napisz program wykorzystujący switch gdzie:
 - zamiast pojedynczego znaku będzie sprawdzane całę słowo
 - nazwij program: ZadSwitch.cc
+
+
+Zadanie 15
+--------------------------------------
+- Zaprojektuj klasę/klasy i umieść wszystkie funkcje z zadań 1-14
+  jak metody danej klasy/klas
+- Deklaracja metod w ciele klasy, a definicja poza,
+- Definicje metod w osobnym pliku nagłówkowym
+- nazwij klasę nadrzędną: ZadKcpp (plik: ZadKcpp.cc)
+- wszystko w osobnym katalogu: ZadKcpp
+  - main.cc w ZadKcpp,
+  - pliki nagłówkowew katalogu: ZadKcpp/inlclude,
+  - pliki źródłowe w katalogu: ZadKcpp/src
+  .
