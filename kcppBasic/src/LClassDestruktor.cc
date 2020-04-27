@@ -12,7 +12,9 @@ class A
 {
    
  public:
+   A() {};
    A(int zmienna);
+   A(double zmienna) {};
    ~A();
 
    int fLicznik;
@@ -28,6 +30,7 @@ A::~A(){
 
 int  main(){
    A *obiektC = new A(9);
+   A *obiektD = new A();
         
    cout << obiektC->fLicznik << endl; 
  

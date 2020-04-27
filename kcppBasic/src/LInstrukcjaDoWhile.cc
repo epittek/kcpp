@@ -11,8 +11,8 @@ using namespace std;
 int main()
 {   
   int i = 0;
-  int  iMaxLoop = 5; //<- Opcja 1
-  //int  iMaxLoop = i; //<- Opcja 2
+  //int  iMaxLoop = 5; //<- Opcja 1
+  int  iMaxLoop = i; //<- Opcja 2
 
 
   cout <<"\n--- While ---------------------"<< endl;

@@ -37,7 +37,7 @@ int main()
 {
    C *obiekt = new C();
    obiekt->Fun();
-   //cout << obiekt->A::fI << endl;
-   //cout << obiekt->B::fI << endl;
+   cout << obiekt->A::fI << endl;
+   cout << obiekt->B::fI << endl;
 }
 

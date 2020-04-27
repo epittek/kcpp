@@ -12,7 +12,7 @@ class Pudelko
 {   
  public:
    Pudelko(float d, float s, float w) : fD(d), fS(s), fW(w) { }
-   
+   //int GetValueD() { return fD; }; 
    friend int Equalsize(Pudelko a, Pudelko b);
    
  private:
@@ -24,6 +24,8 @@ int Equalsize(Pudelko a, Pudelko b) {
 
    // Funkcja nie bedaca metoda klasy Pudelko korzysta ze
    // skladowych prywatnych klasy Pudelko
+
+   //if( a.GetValueD() == b.GetValueD()) return 1;    // A czy to zadziała?
    if( a.fD * a.fS * a.fW == b.fD * b.fS * b.fW) return 1;
    else return 0;
  

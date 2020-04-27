@@ -36,16 +36,16 @@ int Przodek::FunA(int zm)
 int main()
 {
    Potomek potObiekt;
-   potObiekt.fM = 8;
-   cout << potObiekt.fM << endl;
+   potObiekt.fN = 8;
+   cout << potObiekt.fN << endl;
    
    //------------ 1 ------------------------
    Przodek przObiekt;
-   przObiekt.fM = 7;
-   cout << przObiekt.fM << endl;
+   przObiekt.fN = 7;
+   cout << przObiekt.fN << endl;
    
    //------------ 2 ------------------------
-   cout << potObiekt.fM << endl;
+   cout << potObiekt.fN << endl;
    
    //------------ 3 ------------------------
    int resA = przObiekt.FunA(7);

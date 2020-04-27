@@ -27,8 +27,8 @@ int main()
 {
    
    cout << A::GetValue() << endl;
-   A objectD;
-   cout << objectD.gLicznik << endl;  // A czy tak można? Proszę sprawdzić.
+   /* A objectD;
+    * cout << objectD.gLicznik << endl;  // A czy tak można? Proszę sprawdzić. */
    
    A objectA;
    cout << objectA.GetValue() << endl;
