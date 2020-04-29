@@ -24,8 +24,10 @@ class B : public A
 int main() {
   A a;
   B b;
-  A *p1 = &a, *p2 = &b;
-  A &r1 = a,  &r2 = b;
+  A *p1 = &a;
+  A *p2 = &b;
+  A &r1 = a;
+  A &r2 = b;
 
   a.Funkcja();
   b.Funkcja();
