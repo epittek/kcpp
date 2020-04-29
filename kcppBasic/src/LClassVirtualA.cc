@@ -35,5 +35,7 @@ int main() {
   p2->Funkcja();
   r1.Funkcja();
   r2.Funkcja();
+
+  //cout << sizeof(A) << endl;
 };
 
