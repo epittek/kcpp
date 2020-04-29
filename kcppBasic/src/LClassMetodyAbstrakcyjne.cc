@@ -8,11 +8,17 @@
 #include <iostream>
 using namespace std;
 
+
+//------------------------------------------------------------------
 class Figura
 {   
  public:
    virtual void Narysuj() = 0;   
 };
+//------------------------------------------------------------------
+
+
+
 
 //------------------------------------------------------------------
 class Trojkat : public Figura 
@@ -47,6 +53,7 @@ class Prostokat : public Figura
 int main()
 { 
    Kwadrat *objKwadrat = new Kwadrat();
+   //Figura *objKwadrat = new Kwadrat();
    objKwadrat->Narysuj();  
 
    //Figura fig;    //ERROR
