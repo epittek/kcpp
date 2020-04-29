@@ -24,7 +24,7 @@ int main() {
    B b;
    
    
-#define ZMIANA
+//#define ZMIANA
 
 #ifdef ZMIANA
    A *p1 = &a;
