@@ -57,4 +57,5 @@ int main()
    objKwadrat->Narysuj();  
 
    //Figura fig;    //ERROR
+   //Figura *fig = new Figura();    //ERROR
 }

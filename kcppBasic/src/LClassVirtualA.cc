@@ -12,7 +12,7 @@ using namespace std;
 class A 
 {
   public:
-  virtual void Funkcja() { cout <<"Metoda z klasy A"<< endl; }
+  void Funkcja() { cout <<"Metoda z klasy A"<< endl; }
 };
 
 class B : public A 
