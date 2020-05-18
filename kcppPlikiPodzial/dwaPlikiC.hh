@@ -12,8 +12,8 @@ public:
    
    void DisplayZmienna();
    
-   int  GetZmienna() { return fZmienna; }
-   void SetZmienna(int zmienna) { fZmienna = zmienna; }
+   inline int  GetZmienna() { return fZmienna; }
+   inline void SetZmienna(int zmienna) { fZmienna = zmienna; }
    
 private:
    int fZmienna;

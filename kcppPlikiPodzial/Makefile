@@ -8,3 +8,6 @@ dwaPlikiC.o: dwaPlikiC.cc
 	     g++ -c dwaPlikiC.cc
 mainDwaPlikiC.o: mainDwaPlikiC.cc
 	     g++ -c mainDwaPlikiC.cc
+
+clean:
+	rm -f *.o
