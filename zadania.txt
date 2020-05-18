@@ -135,4 +135,8 @@ Zadanie 15
   - main.cc w ZadKcpp,
   - pliki nagłówkowew katalogu: ZadKcpp/inlclude,
   - pliki źródłowe w katalogu: ZadKcpp/src
-  .
+
+
+Zadanie 16
+--------------------------------------
+- Stwórz Makefile (lub przez cmake) dla projektów z zadania 15
